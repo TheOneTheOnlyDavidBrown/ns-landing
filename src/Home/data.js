@@ -4,28 +4,28 @@ export const page1 = [
   {
     img: `${assets}/image/icon/g2-c94ef.svg`,
     href: `${base}zh-cn/g2/3.x/index.html`,
-    title: 'G2',
-    description: ' 是以数据为驱动，具有高度的易用性和扩展性的可视化图形语法。',
+    title: 'Filter',
+    description: 'Cut the cruft and only look at the deals that matter to you.',
   },
   {
     img: `${assets}/image/icon/g6-b4554.svg`,
-    title: 'G6',
+    title: 'Analysis',
     href: `${base}zh-cn/g6/1.x/index.html`,
-    description: ' 是一套便捷、动态和富有交互的流程图和关系分析的图表库。',
+    description: 'Built in buy and exit strategies.',
   },
   {
     img: `${assets}/image/icon/f2-d360c.svg`,
-    title: 'F2',
+    title: 'Public Records',
     href: `${base}zh-cn/f2/3.x/index.html`,
-    description: ' 是一套精简、高性能、易扩展的的移动端图表库。',
+    description: 'Access public records without hunting down the information on fragmented websites.',
   },
 ];
 
 export const page3 = [
   {
     img: `${assets}/image/home/features-simple-9617c.svg`,
-    title: '简单方便',
-    description: '从数据出发，仅需几行代码就可以轻松获得想要的图表展示效果。',
+    title: 'p3 title',
+    description: 'p3 desc',
   },
   {
     img: `${assets}/image/home/features-professional-1c6d1.svg`,
@@ -41,10 +41,10 @@ export const page3 = [
 
 export const page4 = [
   {
-    name: '陈为',
-    profile: '浙江大学计算机学院 CAD & CG 国家重点实验室教授 可视化专家',
+    name: 'Tom',
+    profile: 'Investor',
     avatar: 'https://os.alipayobjects.com/rmsportal/CcFeLxXurbQmwrT.jpg',
-    comment: '在多年可视化设计与开发的积累基础上，蚂蚁金服团队推出了 AntV 产品，这是工业界在基础可视化语法与实践方面发出的最强声音，也是工业界与学术界一道推进可视化研发进展的最佳利器。',
+    comment: 'Best app ever',
   },
   {
     name: '林峰',

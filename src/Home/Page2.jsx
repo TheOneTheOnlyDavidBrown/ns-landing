@@ -11,7 +11,7 @@ export default function Page2() {
         leaveReverse
         key="page"
       >
-        <h2 key="title">AntV 可视化解决方案</h2>
+        <h2 key="title">Built by note investors. For note investors.</h2>
         <span key="line" className="separator" />
         <QueueAnim type="bottom" className="info-content" key="content">
           <p className="main-info" key="1">已全面全新升级，主要包含 G2、G6、F2 以及一套完整的图表使用和设计规范。</p>
