@@ -9,7 +9,7 @@ export const page1 = [
   },
   {
     img: `${assets}/image/icon/g6-b4554.svg`,
-    title: 'Analye',
+    title: 'Analyze',
     href: `${base}zh-cn/g6/1.x/index.html`,
     description: 'Built in buy and exit strategies and all the information you need to feel confident in your deal.',
   },
