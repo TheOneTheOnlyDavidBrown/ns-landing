@@ -31,7 +31,7 @@ class Banner extends React.PureComponent {
             className={`${className}-text-wrapper`}
             delay={300}
           >
-            <h2 key="h2a">Mortgage Note Analyzes.</h2>
+            <h2 key="h2a">Mortgage Note Analysis.</h2>
             <h2 key="h2b">Streamlined.</h2>
             <p className="main-info" key="p">
               Waste less time reviewing deals and more time closing.
