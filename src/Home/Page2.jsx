@@ -14,8 +14,8 @@ export default function Page2() {
         <h2 key="title">Built by note investors. For note investors.</h2>
         <span key="line" className="separator" />
         <QueueAnim type="bottom" className="info-content" key="content">
-          <p className="main-info" key="1">已全面全新升级，主要包含 G2、G6、F2 以及一套完整的图表使用和设计规范。</p>
-          <p className="main-info" key="2">得益于丰富的业务场景和用户需求挑战，AntV 经历多年积累与不断打磨，已支撑整个阿里集团内外 2000+ 业务系统，通过了百万级 UV 产品的严苛考验后方敢与君见。</p>
+          <p className="main-info" key="1">Designed by note investors to ease the pain in finding and analyzing deals.</p>
+          <p className="main-info" key="2">Quickly filter, analyze, and keep track of deals. No more emailing spreadsheets around.</p>
         </QueueAnim>
       </QueueAnim>
     </OverPack>);
