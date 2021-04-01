@@ -41,7 +41,7 @@ class Home extends React.PureComponent {
         <Banner key="banner" isMobile={this.state.isMobile} navToShadow={this.navToShadow} />,
         <Page1 key="page1" />,
         <Page2 key="page2" />,
-        // <Page3 key="page3" />,
+        <Page3 key="page3" />,
         // <Page4 key="page4" isMobile={this.state.isMobile} />,
         // <Page5 key="page5" />,
         // <Footer key="footer" />,
