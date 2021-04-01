@@ -9,15 +9,15 @@ export const page1 = [
   },
   {
     img: `${assets}/image/icon/g6-b4554.svg`,
-    title: 'Analysis',
+    title: 'Analye',
     href: `${base}zh-cn/g6/1.x/index.html`,
-    description: 'Built in buy and exit strategies.',
+    description: 'Built in buy and exit strategies and all the information you need to feel confident in your deal.',
   },
   {
     img: `${assets}/image/icon/f2-d360c.svg`,
     title: 'Public Records',
     href: `${base}zh-cn/f2/3.x/index.html`,
-    description: 'Access public records without hunting down the information on fragmented websites.',
+    description: 'Access public records without hunting down the information on fragmented county websites.',
   },
 ];
 
