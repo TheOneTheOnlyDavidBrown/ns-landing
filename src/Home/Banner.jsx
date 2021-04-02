@@ -44,22 +44,25 @@ class Banner extends React.PureComponent {
               Waste less time reviewing deals and more time closing.
             </p>
             <Row gutter={24} >
-            {!this.state.success && (<React.Fragment>
-            <Col xs={24} lg={8}>
-              First Name: <Input name="first_name" onChange={(e) => {
-                this.state = {...this.state, first_name: e.target.value}
-              }}/>
-            </Col>
-            <Col xs={24} lg={8}>
-              Last Name: <Input name="last_name" onChange={(e) => {
-                this.state = {...this.state, last_name: e.target.value}
-              }}/>
-            </Col>
-            <Col xs={24} lg={8}>
-              Email: <Input name="email" onChange={(e) => {
-                this.state = {...this.state, email: e.target.value}
-              }}/>
-            </Col></React.Fragment>)}
+            {!this.state.success && (
+              <React.Fragment>
+                <Col xs={24} lg={8}>
+                  First Name: <Input name="first_name" onChange={(e) => {
+                    this.state = {...this.state, first_name: e.target.value}
+                  }}/>
+                </Col>
+                <Col xs={24} lg={8}>
+                  Last Name: <Input name="last_name" onChange={(e) => {
+                    this.state = {...this.state, last_name: e.target.value}
+                  }}/>
+                </Col>
+                <Col xs={24} lg={8}>
+                  Email: <Input name="email" onChange={(e) => {
+                    this.state = {...this.state, email: e.target.value}
+                  }}/>
+                </Col>
+              </React.Fragment>
+            )}
             </Row>
             <br />
             <Row gutter={24}>
@@ -75,7 +78,11 @@ class Banner extends React.PureComponent {
                 })
                 .then(response => response.json())
                 .then(data => {
-                  this.setState({...this.state, loading: false, success: true})
+                  if(data.error){
+                    this.setState({...this.state, loading: false})
+                  }else{
+                    this.setState({...this.state, loading: false, success: true})
+                  }
                   console.log('Success:', data);
                 })
                 .catch((error) => {
