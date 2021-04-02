@@ -44,7 +44,7 @@ class Home extends React.PureComponent {
         <Page3 key="page3" />,
         // <Page4 key="page4" isMobile={this.state.isMobile} />,
         // <Page5 key="page5" />,
-        // <Footer key="footer" />,
+        <Footer key="footer" />,
         <DocumentTitle title="NoteSleuth" />,
       ]
     );

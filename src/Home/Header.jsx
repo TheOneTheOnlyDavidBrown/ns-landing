@@ -9,8 +9,9 @@ export default function Header(props) {
         <span>NoteSleuth</span>
       </a>
       <div className="button">
-      <Button onClick={() => window.location.href ="http://app.notesleuth.com/create-account"}>Register</Button>&nbsp;
-      <Button type="primary" onClick={() => window.location.href ="http://app.notesleuth.com/login"}>Login</Button>
+      {/* <Button onClick={() => window.location.href ="http://app.notesleuth.com/create-account"}>Register</Button>&nbsp;
+      <Button type="primary" onClick={() => window.location.href ="http://app.notesleuth.com/login"}>Login</Button> */}
+      <Button type="primary" onClick={() => window.location.href ="#join-waitlist"}>Join the Waitlist</Button>
       </div>
     </header>
   );

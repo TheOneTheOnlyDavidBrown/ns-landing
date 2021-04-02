@@ -4,7 +4,7 @@ import { Row, Col } from 'antd';
 function Footer() {
   return (
     <footer id="footer" className="dark">
-      <div className="footer-wrap">
+      {/* <div className="footer-wrap">
         <Row>
           <Col lg={4} sm={24} xs={24}>
             <div className="footer-center">
@@ -87,11 +87,11 @@ function Footer() {
             </div>
           </Col>
         </Row>
-      </div>
+      </div> */}
       <Row className="bottom-bar">
         <Col lg={6} sm={24} />
         <Col lg={18} sm={24}>
-          <span
+          {/* <span
             style={{
               lineHeight: '16px',
               paddingRight: 12,
@@ -104,7 +104,7 @@ function Footer() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              隐私权政策 ICP
+              Facebook
             </a>
           </span>
           <span style={{ marginRight: 24 }}>
@@ -113,11 +113,11 @@ function Footer() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              权益保障承诺书
+              Twitter
             </a>
-          </span>
-          <span style={{ marginRight: 12 }}>ICP 证浙 B2-2-100257</span>
-          <span style={{ marginRight: 12 }}>Copyright © 蚂蚁金融服务集团</span>
+          </span> */}
+
+          <span style={{ marginRight: 12 }}>Copyright 2021, Knox Invest Real Estate</span>
         </Col>
       </Row>
     </footer>

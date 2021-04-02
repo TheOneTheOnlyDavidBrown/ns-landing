@@ -1,42 +1,44 @@
 export const assets = 'https://gw.alipayobjects.com/os/s/prod/antv/assets';
-const base = 'https://antv.alipay.com/';
+const base = 'https://notesleuth.com/';
 export const page1 = [
   {
     img: `${assets}/image/icon/g2-c94ef.svg`,
     href: `${base}zh-cn/g2/3.x/index.html`,
-    title: 'Filter',
-    description: 'Cut the cruft and only look at the deals that matter to you.',
+    title: 'Save Time',
+    description: 'Cut the cruft and only look at the deals that matter to you by filtering deals that don\'t fit your buying criteria.',
   },
   {
     img: `${assets}/image/icon/g6-b4554.svg`,
-    title: 'Analyze',
+    title: 'Analyze Quicker',
     href: `${base}zh-cn/g6/1.x/index.html`,
-    description: 'Built in buy and exit strategies and all the information you need to feel confident in your deal.',
+    description: 'Built in buy and exit strategies and all the information you need to feel confident in your deal quickly.',
   },
   {
     img: `${assets}/image/icon/f2-d360c.svg`,
     title: 'Public Records',
     href: `${base}zh-cn/f2/3.x/index.html`,
-    description: 'Access public records without hunting down the information on fragmented county websites.',
+    description: 'One-click access to public records without navigating fragmented county websites.',
   },
 ];
 
 export const page3 = [
   {
-    img: `${assets}/image/home/features-simple-9617c.svg`,
-    title: 'p3 title',
-    description: 'p3 desc',
-  },
-  {
+
     img: `${assets}/image/home/features-professional-1c6d1.svg`,
-    title: '专业可靠',
-    description: '大量产品实践之上，提供绘图引擎，完备图形语法以及专业设计规范。',
+    title: 'Deal Source Aggregated and Filtered to Criteria',
+    description: 'Once verified on other platforms, you\'ll have deals in your inbox to review. Auto filtering the deals that don\'t fit your criteria.',
   },
   {
     img: `${assets}/image/home/features-powerful-243e3.svg`,
-    title: '无限可能',
-    description: '任何图表，都可以基于图形语法灵活绘制，满足你无限的创意。',
+    title: 'Due Diligence Checklist',
+    description: 'Each deal has a set of steps that guide you to making a good decision.',
   },
+  {
+    img: `${assets}/image/home/features-simple-9617c.svg`,
+    title: 'Market & Crime Data',
+    description: 'Make sure your asset is in a quality neigborhood should you need to reclaim it.',
+  },
+
 ];
 
 export const page4 = [

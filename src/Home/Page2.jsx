@@ -14,7 +14,7 @@ export default function Page2() {
         <h2 key="title">Built by note investors. For note investors.</h2>
         <span key="line" className="separator" />
         <QueueAnim type="bottom" className="info-content" key="content">
-          <p className="main-info" key="1">Designed by note investors to ease the pain in finding and analyzing deals.</p>
+          <p className="main-info" key="1">Designed by note investors to ease the pain in filtering and analyzing deals..</p>
           <p className="main-info" key="2">Quickly filter, analyze, and keep track of deals. No more emailing spreadsheets around.</p>
         </QueueAnim>
       </QueueAnim>
