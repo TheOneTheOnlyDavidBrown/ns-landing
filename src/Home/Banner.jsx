@@ -90,7 +90,7 @@ class Banner extends React.PureComponent {
                   console.error('Error:', error);
                 });
               }}>
-                Join the Waitlist
+                Join the Waitlist!
               </Button>}
               {this.state.success && 'Thanks for signing up to the waitlist!'}
 
