@@ -69,7 +69,7 @@ class Banner extends React.PureComponent {
             <Col>
               {!this.state.success && <Button type="primary" loading={this.state.loading} onClick={async () => {
                 this.setState({...this.state, loading: true})
-                await fetch('https://notesleuth-backend.herokuapp.com/waitlist/add', {
+                await fetch('https://notesleuth-be-production.up.railway.app/waitlist/add', {
                   method: 'POST', // or 'PUT'
                   headers: {
                     'Content-Type': 'application/json',
