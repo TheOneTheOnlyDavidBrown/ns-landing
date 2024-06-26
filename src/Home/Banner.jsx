@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import QueueAnim from 'rc-queue-anim';
+import Helmet from "react-helmet"
 import { Button, Input, Col, Row } from 'antd';
 import { Element } from 'rc-scroll-anim';
 import BannerImage from './BannerImage';
@@ -42,8 +43,10 @@ class Banner extends React.PureComponent {
             <Row gutter={24}>
               <Col>
                 <div id="getWaitlistContainer" data-waitlist_id="18177" data-widget_type="WIDGET_2" />
-                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
-                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js" />
+                <Helmet>
+                  <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+                  <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js" />
+                </Helmet>
               </Col>
             </Row>
 

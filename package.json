@@ -13,7 +13,8 @@
     "react": "^16.1.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
-    "react-github-button": "^0.1.11"
+    "react-github-button": "^0.1.11",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "atool-build": "^1.0.2",
