@@ -67,32 +67,9 @@ class Banner extends React.PureComponent {
             <br />
             <Row gutter={24}>
             <Col>
-              {!this.state.success && <Button type="primary" loading={this.state.loading} onClick={async () => {
-                this.setState({...this.state, loading: true})
-                await fetch('https://notesleuth-be-production.up.railway.app/waitlist/add', {
-                  method: 'POST', // or 'PUT'
-                  headers: {
-                    'Content-Type': 'application/json',
-                  },
-                  body: JSON.stringify(this.state),
-                })
-                .then(response => response.json())
-                .then(data => {
-                  if(data.error){
-                    this.setState({...this.state, loading: false})
-                  }else{
-                    this.setState({...this.state, loading: false, success: true})
-                  }
-                  console.log('Success:', data);
-                })
-                .catch((error) => {
-                  this.setState({...this.state, loading: false})
-                  console.error('Error:', error);
-                });
-              }}>
-                Join the Waitlist!
-              </Button>}
-              {this.state.success && 'Thanks for signing up to the waitlist!'}
+              <div id="getWaitlistContainer" data-waitlist_id="18177" data-widget_type="WIDGET_2"></div>
+              <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+              <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
 
             </Col>
             </Row>
