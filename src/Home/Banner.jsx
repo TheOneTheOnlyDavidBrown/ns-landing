@@ -16,11 +16,6 @@ class Banner extends React.PureComponent {
     className: 'banner',
   }
 
-  constructor(props) {
-    super(props);
-    this.state = { first_name: '', last_name: '', email:'', loading: false, success: false };
-  }
-
   render() {
     const { className, isMobile, navToShadow } = this.props;
     return (
@@ -43,35 +38,13 @@ class Banner extends React.PureComponent {
             <p className="main-info" key="p" id="join-waitlist">
               Waste less time reviewing deals and more time closing.
             </p>
-            <Row gutter={24} >
-            {!this.state.success && (
-              <React.Fragment>
-                <Col xs={24} lg={8}>
-                  First Name: <Input name="first_name" onChange={(e) => {
-                    this.state = {...this.state, first_name: e.target.value}
-                  }}/>
-                </Col>
-                <Col xs={24} lg={8}>
-                  Last Name: <Input name="last_name" onChange={(e) => {
-                    this.state = {...this.state, last_name: e.target.value}
-                  }}/>
-                </Col>
-                <Col xs={24} lg={8}>
-                  Email: <Input name="email" onChange={(e) => {
-                    this.state = {...this.state, email: e.target.value}
-                  }}/>
-                </Col>
-              </React.Fragment>
-            )}
-            </Row>
             <br />
             <Row gutter={24}>
-            <Col>
-              <div id="getWaitlistContainer" data-waitlist_id="18177" data-widget_type="WIDGET_2"></div>
-              <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
-              <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
-
-            </Col>
+              <Col>
+                <div id="getWaitlistContainer" data-waitlist_id="18177" data-widget_type="WIDGET_2" />
+                <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+                <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js" />
+              </Col>
             </Row>
 
           </QueueAnim>
