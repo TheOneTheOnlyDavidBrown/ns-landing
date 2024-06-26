@@ -6,7 +6,7 @@ export default function Header(props) {
     <header {...props}>
       <a className="logo-wrapper" href="https://notesleuth.com" target="_blank">
         <i className="logo" />
-        <span>NoteSleuth</span>
+        <span>Notesleuth</span>
       </a>
       <div className="button">
       {/* <Button onClick={() => window.location.href ="http://app.notesleuth.com/create-account"}>Register</Button>&nbsp;
