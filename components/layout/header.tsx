@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export function Header() {
   return (
-    <header className="w-full bg-primary text-primary-foreground shadow-md">
+    <header className="w-full text-primary bg-white shadow-md">
       <div className="flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2">
-          <img src="/logo.png" alt="NoteSleuth Logo" className="h-8 w-8" />
+          <img src="/logo-lightbg.png" alt="NoteSleuth Logo" className="h-8 w-8" />
           <span className="text-xl font-bold">NoteSleuth</span>
         </Link>
         <NavigationMenu>

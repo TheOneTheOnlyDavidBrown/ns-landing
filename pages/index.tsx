@@ -17,9 +17,9 @@ export default function Home() {
         <meta name="twitter:title" content="NoteSleuth - Revolutionizing Mortgage Note Investing" />
         <meta name="twitter:description" content="Discover, analyze, and trade seller-financed mortgage notes with NoteSleuth. Leading platform for note investors." />
       </Head>
-      <main>
+      <main className="mb-8">
         <Hero />
-        <section className="container mx-auto py-16 px-4">
+        <section className="container mx-auto py-16 px-4 bg-white rounded-lg shadow-md">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Empowering Mortgage Note Investors
           </h2>
