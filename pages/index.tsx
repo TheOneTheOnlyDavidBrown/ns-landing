@@ -16,13 +16,36 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="NoteSleuth - Revolutionizing Mortgage Note Investing" />
         <meta name="twitter:description" content="Discover, analyze, and trade seller-financed mortgage notes with NoteSleuth. Leading platform for note investors." />
+        {/* Canonical tag */}
+        <link rel="canonical" href="https://notesleuth.com/" />
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "NoteSleuth",
+              "url": "https://notesleuth.com",
+              "description": "Discover, analyze, and trade seller-financed mortgage notes with NoteSleuth. Empowering investors with cutting-edge tools for sourcing, due diligence, and seamless transactions.",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://notesleuth.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
       </Head>
       <main className="mb-8">
         <Hero />
         <section className="container mx-auto py-16 px-4 bg-white rounded-lg shadow-md">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+          {/* Use h1 for main heading */}
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Empowering Mortgage Note Investors
-          </h2>
+          </h1>
           <p className="mt-4 text-lg text-gray-500">
             At NoteSleuth, our mission is to streamline the secondary market for mortgage note investing. Our platform integrates advanced tools like public record mining, direct mail campaigns, and white-labeled intake websites to help you source, analyze, and trade mortgage notes with ease.
           </p>
