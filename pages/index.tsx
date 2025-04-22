@@ -37,13 +37,13 @@ export default function Home() {
       <main className="mb-8">
         <Hero />
         <section className="container mx-auto py-16 px-4 bg-white rounded-lg shadow-md">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            An all in one platform for note investors, by note investors
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-center">
+            An all-in-one platform for note investors, by note investors
           </h1>
-          <p className="mt-4 text-lg text-gray-500">
+          <p className="mt-4 text-lg text-gray-500 text-center">
             At NoteSleuth, our mission is to streamline the secondary market for mortgage note investing. Our platform integrates advanced tools like public record mining, direct mail campaigns, and white-labeled intake websites to help you source, analyze, and trade mortgage notes with ease.
           </p>
-          <p className="mt-4 text-lg text-gray-500">
+          <p className="mt-4 text-lg text-gray-500 text-center">
             From lead generation to deal tracking and trade execution, NoteSleuth provides a comprehensive solution for investors. With features like skip tracing, engagement analytics, and funding assistance, we ensure a seamless experience from sourcing to closing.
           </p>
         </section>
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 bg-white p-6 rounded-lg shadow-md text-center">
-            <p className="text-lg  text-gray-600">
+            <p className="text-lg text-gray-600">
               Missing a feature you need? <a href="/contact" className="text-blue-600 font-bold hover:underline">Contact us</a> and we'll work to add it for you!
             </p>
           </div>

@@ -31,18 +31,18 @@ export function Hero() {
   }
 
   return (
-    <section className="pt-24 pb-8 mx-16 px-4 text-center flex">
-      <div className="w-1/2">
+    <section className="pt-24 pb-8 px-4 text-center flex flex-col-reverse md:flex-row items-center">
+      <div className="w-full md:w-1/2 mt-8 md:mt-0">
         <BannerImage />
       </div>
-      <div className="px-8">
+      <div className="w-full md:w-1/2 px-4">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
           Discover & Trade Mortgage Notes
         </h1>
         <p className="mx-auto mt-4 max-w-[700px] text-gray-500 md:text-xl">
           Your all-in-one platform for lead generation, deal tracking, and note trading
         </p>
-        <form onSubmit={handleSubmit} className="mt-8 flex justify-center gap-4 w-full">
+        <form onSubmit={handleSubmit} className="mt-8 flex flex-col sm:flex-row justify-center gap-4 w-full">
           <input
             type="email"
             required
