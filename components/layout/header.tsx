@@ -3,18 +3,23 @@ import Link from "next/link"
 
 export function Header() {
   return (
-    <header className="w-full border-b">
-      <div className="container flex h-16 items-center space-x-4">
+    <header className="w-full bg-primary text-primary-foreground shadow-md">
+      <div className="flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="font-bold">NoteSleuth</span>
+          <img src="/logo.png" alt="NoteSleuth Logo" className="h-8 w-8" />
+          <span className="text-xl font-bold">NoteSleuth</span>
         </Link>
         <NavigationMenu>
-          <NavigationMenuList>
+          <NavigationMenuList className="flex space-x-6">
             <NavigationMenuItem>
-              <Link href="/features">Features</Link>
+              <Link href="/features" className="hover:text-secondary-foreground transition-colors">
+                Features
+              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact" className="hover:text-secondary-foreground transition-colors">
+                Contact
+              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>

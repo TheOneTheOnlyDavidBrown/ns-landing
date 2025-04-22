@@ -9,7 +9,6 @@ export default function Home() {
         <title>NoteSleuth - Discover, Analyze & Trade Mortgage Notes</title>
         <meta name="description" content="The ultimate platform for discovering, analyzing, and trading seller-financed mortgage notes." />
       </Head>
-      <Header />
       <main>
         <Hero />
       </main>
