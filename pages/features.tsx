@@ -9,7 +9,6 @@ export default function Features() {
         <meta name="keywords" content="mortgage note software, lead generation, due diligence tools, note trading platform, deal tracking" />
         <meta property="og:title" content="Features - NoteSleuth | Mortgage Note Investment Tools" />
         <meta property="og:description" content="Explore NoteSleuth's comprehensive features for mortgage note investing. Lead generation, due diligence, deal tracking, and trading tools all in one platform." />
-        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://notesleuth.com/features" />
       </Head>
       <main>
