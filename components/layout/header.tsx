@@ -12,12 +12,12 @@ export function Header() {
         <NavigationMenu>
           <NavigationMenuList className="flex space-x-6">
             <NavigationMenuItem>
-              <Link href="/features" className="hover:text-secondary-foreground transition-colors">
+              <Link href="/features" className="hover:text-primary/90 transition-colors">
                 Features
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/contact" className="hover:text-secondary-foreground transition-colors">
+              <Link href="/contact" className="hover:text-primary/90 transition-colors">
                 Contact
               </Link>
             </NavigationMenuItem>
