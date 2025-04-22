@@ -3,14 +3,14 @@ import Airtable from 'airtable'
 
 const AIRTABLE_API_KEY = process.env.NEXT_PUBLIC_AIRTABLE_API_KEY
 const AIRTABLE_BASE_ID = process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID
-const AIRTABLE_TABLE_NAME = 'waitlist'
+const AIRTABLE_TABLE_NAME = 'contact'
 
 // Initialize Airtable
 const base = new Airtable({ apiKey: AIRTABLE_API_KEY }).base(AIRTABLE_BASE_ID!)
 
 export async function POST(request: Request) {
   try {
-    const { email } = await request.json()
+    const { email, message, name } = await request.json()
 
     if (!email) {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 })
@@ -19,6 +19,8 @@ export async function POST(request: Request) {
     // Submit to Airtable
     await base(AIRTABLE_TABLE_NAME!).create([{
         fields: {
+            name,
+            message,
             email
         }  
     }])
