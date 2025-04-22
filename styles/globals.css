@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 10% 95%; /* Light gray */
+    --foreground: 220 50% 10%;
+    --primary: 220 80% 30%; /* Deep blue */
+    --primary-foreground: 220 100% 98%;
+    --secondary: 210 40% 30%;
+    --secondary-foreground: 220 50% 95%;
+    --border: 210 22% 25%;
+    --input: 210 22% 20%;
+    --ring: 210 50% 40%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
